@@ -1,0 +1,20 @@
+.wrapper{
+    max-width: 70rem; /* Somar os dois frame + a distancia entre eles seu 1120 e depois é só dividir por 16 e chegar à 70rem*/
+    margin: 2rem auto; /* 'auto' ajuda a ficar centtralizado */
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /* 'fr' é a unidade usado no grid para falar que algo vai ter o tamanho flexivel */
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .html {
+        font-size: 87.5%; /* 16 é 100% e agente quer 14 -> Então precisamos saber o percentual de 14 por 16 */
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

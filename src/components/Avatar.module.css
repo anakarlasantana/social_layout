@@ -1,0 +1,13 @@
+.avatar{
+    width: 3rem; /* Poderia usar também, 'box-sizing: initial' na qual faz o elemento usar o espaço das bordas e não esprema o elemento para caber dentro do container. */
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.avatarWithBorder {
+    width: calc(3rem + 12px); /* Poderia usar também, 'box-sizing: initial' na qual faz o elemento usar o espaço das bordas e não esprema o elemento para caber dentro do container. */
+    height: calc(3rem + 12px);
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+}
