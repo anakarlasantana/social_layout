@@ -10,4 +10,4 @@ III - Caso você ainda não tenha o Vite instalado: yarn add -D vite ou npm inst
 
 IV - Executar a aplicação: npm run dev
 
-![Alt text](social_layout.png)
+![social_layout](https://github.com/anakarlasantana/social_layout/assets/82245801/bac5d5b0-4b94-4c95-a4f3-53e451d57741)
